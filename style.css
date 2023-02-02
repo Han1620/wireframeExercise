@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  /* max-width: 960px; */
+}
+
+#mainImage {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 760px;
+  justify-content: space-around;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#subBanner {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#featureSection {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#scroll {
+  max-height: 400px;
+  max-width: 450px;
+  overflow: auto;
+}
+
+footer {
+  background-color: #1ae8b8;
+  width: 100%;
+  height: 200px;
+}
